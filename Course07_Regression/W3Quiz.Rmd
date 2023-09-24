@@ -51,11 +51,11 @@ fit3_int <- lm(y ~ x1 * x2)
 anova(fit3, fit3_int)[6]
 ```
 
-  - **The P-value is larger than 0.05. So, according to our criterion, we would fail to reject, which suggests that the interaction terms is necessary.**
+  - wrong answer. **The P-value is larger than 0.05. So, according to our criterion, we would fail to reject, which suggests that the interaction terms is necessary.**
   - The P-value is small (less than 0.05). So, according to our criterion, we reject, which suggests that the interaction term is necessary
   - The P-value is small (less than 0.05). Thus it is surely true that there is no interaction term in the true model.
   - The P-value is small (less than 0.05). So, according to our criterion, we reject, which suggests that the interaction term is not necessary.
-  - The P-value is larger than 0.05. So, according to our criterion, we would fail to reject, which suggests that the interaction terms may not be necessary.
+  - ***correct answer*** The P-value is larger than 0.05. So, according to our criterion, we would fail to reject, which suggests that the interaction terms may not be necessary.
   - The P-value is small (less than 0.05). Thus it is surely true that there is an interaction term in the true model.
 
 4. Consider the `mtcars` data set. Fit a model with mpg as the outcome that includes number of cylinders as a factor variable and weight inlcuded in the model as
@@ -67,7 +67,7 @@ How is the wt coefficient interpretted?
 
   - The estimated expected change in MPG per half ton increase in weight.
   - The estimated expected change in MPG per half ton increase in weight for the average number of cylinders.
-  - **The estimated expected change in MPG per one ton increase in weight for a specific number of cylinders (4, 6, 8).**
+  -**The estimated expected change in MPG per one ton increase in weight for a specific number of cylinders (4, 6, 8).**
   - The estimated expected change in MPG per half ton increase in weight for for a specific number of cylinders (4, 6, 8).
   - The estimated expected change in MPG per one ton increase in weight.
 
