@@ -25,6 +25,8 @@ match(c('sleep', 'give', 'die', 'eat'), result)
   
   - NOTE: incorrect prediction
 
+***die*** is correct answer
+
 2. Q2
 ```{r}
 result <- nextWords("Guy at my table's wife got up to go to the bathroom and I asked about dessert and he started telling me about his", 100)
@@ -49,6 +51,8 @@ match(c('morning', 'weekend', 'decade', 'month'), result)
   
   - NOTE: incorrect prediction
 
+***weekend*** is correct answer.
+
 4. Q4
 ```{r}
 result <- nextWords("Talking to your mom has the same effect as a hug and helps reduce your", 100)
@@ -71,6 +75,8 @@ match(c('minute', 'look', 'walk', 'picture'), result)
   
   - NOTE: incorrect prediction
 
+***picture*** is correct answer.
+
 6. Q6
 ```{r}
 result <- nextWords("I'd just like all of these questions answered, a presentation of evidence, and a jury to settle the", 1000)
@@ -80,6 +86,8 @@ match(c('account', 'case', 'incident', 'matter'), result)
   - *case*
   - incident
   - **matter**
+
+***matter*** is correct answer.
   
   - NOTE: incorrect prediction (even though I think the answer is wrong)
 
