@@ -52,6 +52,8 @@ match(c('defense', 'crowd', 'players', 'referees'), result)
   
   - NOTE: incorrect prediction
 
+***defense*** is the correct answer
+
 5. Q5
 ```{r}
 result <- nextWords("Go on a romantic date at the", 1000)
